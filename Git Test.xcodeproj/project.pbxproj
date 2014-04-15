@@ -21,6 +21,7 @@
 		4075873A18FDF07A00867273 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4075871C18FDF07A00867273 /* UIKit.framework */; };
 		4075874218FDF07A00867273 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4075874018FDF07A00867273 /* InfoPlist.strings */; };
 		4075874418FDF07A00867273 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4075874318FDF07A00867273 /* Git_TestTests.m */; };
+		4075874F18FDF5BA00867273 /* MMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4075874E18FDF5BA00867273 /* MMTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4075873F18FDF07A00867273 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		4075874118FDF07A00867273 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4075874318FDF07A00867273 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		4075874D18FDF5BA00867273 /* MMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTest.h; sourceTree = "<group>"; };
+		4075874E18FDF5BA00867273 /* MMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				4075872A18FDF07A00867273 /* Main.storyboard */,
 				4075872D18FDF07A00867273 /* MMViewController.h */,
 				4075872E18FDF07A00867273 /* MMViewController.m */,
+				4075874D18FDF5BA00867273 /* MMTest.h */,
+				4075874E18FDF5BA00867273 /* MMTest.m */,
 				4075873018FDF07A00867273 /* Images.xcassets */,
 				4075871F18FDF07A00867273 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4075872918FDF07A00867273 /* MMAppDelegate.m in Sources */,
+				4075874F18FDF5BA00867273 /* MMTest.m in Sources */,
 				4075872F18FDF07A00867273 /* MMViewController.m in Sources */,
 				4075872518FDF07A00867273 /* main.m in Sources */,
 			);
